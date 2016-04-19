@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+			<script>window.location="legacy.php"</script>
+		<![endif]-->
+    <!--[if IE 9]>
+			<style>.nineRemove{display:none !important;}</style>
+		<![endif]-->
+    <meta charset="utf-8" />
+    <meta name="author" content="Tek Nepal" />
+    <meta name="description" content="ISTE 340 Final Project" />
+    <meta name="keywords" content="" />
+    <title>IST Department at RIT</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" href="css/bootstrap-vertical-menu.css">
+
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/quote.css" />
+    <script type="text/javascript" src="js/quote.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-shadow.js"></script>
+
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+    <script src="js/jquery-ui.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Indie+Flower|Lobster|Arvo|Orbitron:400,900|Dancing+Script|Architects+Daughter' rel='stylesheet' type='text/css'>
+
+    <script src="js/featherlight.min.js"></script>
+    <link href="js/featherlight.min.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="js/jquery.avgrund.min.js"></script>
+    <link rel="stylesheet" href="css/avgrund.css">
+
+    <script type="text/javascript" src="js/jquery.flip.min.js"></script>
+    <!--
+		pretty photo???
+		-->
+    <link rel="stylesheet" href="css/mycss.css">
+    <script type="text/javascript" src="js/myjs.js"></script>
+
+</head>
+
+<body>
+
+    <div id="content">
+        <!-- Navigation TOP-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div id="right">
+                    <a class="navbar-brand rit" href="#"></a>
+                </div>
+                <div id="left">
+                    <div class="input-group" style="width: 15em; margin: 0.3em 2em;">
+                        <input type="text" class="form-control" id="sear" placeholder="Search RIT">
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-default" onclick='search()'>
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navigation TOP-->
+        <!-- Section Start-->
+        <section>
+
+
+            <div id="fullpage">
+                <div class="section" id="section0">
+                    <div id="intro">
+                        <h1>
+    					<span id="animate1">Information</span> 
+    					<span id="animate2" style="color:white;">Sciences</span> 
+    					<span id="animateAmp" style="color:white;">&amp;</span>
+    					<br><span id="animate3" style="color:white;">Technologies</span> 
+    					<span id="animate4" style="color:white;">@ RIT</span>
+    				</h1>
+                        <div id="quotebox">
+                            <p class="quotemark leftquote">&#8216;&#8216;</p>
+                            <div class="quote"></div>
+                            <p class="quotemark rightquote">&#8217;&#8217;</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section" id="section1" style="background-color: rgba(75, 191, 195, 0.17);">
+                    <div class="slide">
+
+                        <div class="intro">
+                            <h1>
+    					<span id="animate1">Our People</span> 
+    				</h1>
+
+                            <h2 class="orange txtCentre">Faculty</h3>
+                            	 </br>
+
+   
+                            <ul class="gallery clearfix" id="faculty">
+                                
+                            </ul>
+                           
+                            <h3 class = "orange txtCentre">Staff</h3>
+                            </br>
+                            <ul class="gallery clearfix" id="staff">
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="intro">
+                            <h1>Our Undergraduate Degrees</h1>
+                        	<div id = "ugrad"></div>
+                        	<div id = "minor">
+                           	</div>
+                        </div>
+                    </div>
+                	<div class="slide">
+                        <div class="intro">
+                            <h1>Our Graduate Degrees</h1>
+                           	<div id = "grad"></div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="intro">
+                            <h1>Our Minors</h1>
+                           	<div id = "min"></div>
+                        </div>
+                    </div>
+                <div class="slide">
+                    <div class="intro">
+                            <h1>Faculty Research: Areas of Interest</h1>
+                            <h3 class = "orange  txtCentre">Click the area you’re interested in to explore our faculty publications</h3>
+                        <div id = "facresearch">
+                            <ul class = "row" id = "reasearchTag">
+                            </ul>
+                       
+						</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="intro">
+                            <h1>Faculty Research: Areas of Interest</h1>
+                            <h3 class = "orange  txtCentre"> Click the area you’re interested in to explore our faculty publications</h3>
+                        <div id = "facresearch1">
+                            <ul class = "row" id = "reasearchTag1">
+                            </ul>
+						</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="intro">
+                            <h1>Where Our Students Work</h1>
+                            <h3 class = "orange  txtCentre">Click a marker to learn more about the jobs at that location</h3>
+                        <div id = "maps">
+                        	<iframe id = "mapframe" src="http://ist.rit.edu/api/map">
+                        		<p>Your browser does not support iframes.</p>
+							</iframe>
+						</div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="section" id="section2" style="height: 760px;background-color: rgba(123, 170, 190, 0.33);">
+                	<div class="slide">
+                    <div class="intro" id = "app">
+                      
+                    </div>
+                   </div>
+                </div>
+                
+                  <div class="section" id="section4">
+                  	<div id = "tit"> 
+                  	</div>
+                  	<div id = "reso"> 
+                  	<div class = "row" id = "row1"> 
+                  	</div>
+                  	<div class = "row" id = "row2"> 
+                  	</div>
+                  	<div class = "row" id = "row3"> 
+                  	</div>
+                  	
+                  </div>
+              </div>
+                <div class="section" id="section3">
+                    <footer>
+                        <div class="row">
+                            <div class="col-md-3" id="links"></div>
+                            <div class="col-md-6" id="copyright">
+                            	<div id = "social-presence">
+                            		<div class = "row">
+
+                            			<div class="social">
+                            			</div>
+                            		</row>
+                            			<div class="row">
+							                <p>
+							                    <a href="http://www.rit.edu/maps/">One Lomb Memorial Drive, Rochester, NY 14623-5603</a>
+							                    <br>
+							                    Questions or comments?
+							                    <a href="http://www.rit.edu/ask/">Send us feedback.</a>
+							                    Telephone: 585-475-2700
+							                </p>
+
+            							</div>
+                            		
+                            		</div>
+                            	</div>
+
+
+                            </div>
+                            <div class="col-md-3" id="contact"></div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <nav class="navbar navbar-vertical-left">
+            <ul class="nav navbar-nav" id="testappend">
+                <li>
+                    <a href = "#section1">
+                        <span class="glyphicon glyphicon-home" id="navspan"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href ="">
+                        <span class="glyphicon glyphicon-education" id="newsspan"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href ="">
+                        <span class="glyphicon glyphicon-envelope" id="contactspan"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href ="http://www.rit.edu/emcs/admissions/apply">
+                        <span class="glyphicon glyphicon-pencil" id="applyspan"></span>
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

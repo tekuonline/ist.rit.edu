@@ -1,0 +1,348 @@
+.rit {
+    background-image: url(../images/banner.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 390px 80px;
+    height: 45px;
+    width: 500px;
+    padding: 2em;
+    display: inline-block;
+}
+.search {
+    background-position: right;
+}
+.container-fluid {
+    background-color: black;
+}
+#left {
+    padding-top: 1em;
+    float: right;
+}
+section {
+    background-image: url(../images/Unknown.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin-left: 52px;
+    margin-top: 65px;
+}
+#section0 {
+    background-image: url(../images/Unknown.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section1 {
+    background-color: rgba(123, 170, 190, 0.33);
+}
+.intro {
+    margin-left: 52px;
+}
+#animate1 {
+    color: #F36E21;
+}
+#intro {
+    margin-top: 72PX;
+}
+.navbar {
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 4vw;
+    letter-spacing: 2px;
+    text-align: center;
+}
+footer {
+    background-color: hsla(172, 44%, 49%, 0.25);
+    color: rgb(204, 46, 46);
+    text-decoration: none;
+    padding-top: 30px
+}
+#formContainer {
+    padding-top: 0;
+}
+fieldset {
+    color: black;
+}
+body {} .fp-tableCell {
+    vertical-align: 0;
+}
+.navbar.navbar-vertical-left {
+    margin-top: 72px;
+}
+#contact {
+    color: white;
+}
+.input-mini {
+    width: 43px;
+}
+ul li {
+    display: inline;
+}
+.wide {
+    border-bottom: 1px #000 solid;
+    width: 4000px;
+}
+.fleft {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.cboth {
+    clear: both;
+}
+#main {
+    background: #fff;
+    margin: 0 auto;
+    padding: 30px;
+    width: 1000px;
+}
+/*.circle menu */
+
+.research-item a li {
+    opacity: .7;
+    margin-top: 10%;
+}
+.research-item {
+    height: 9vw;
+    width: 9vw;
+    border-radius: 40%;
+    margin: 1%;
+    position: relative;
+    z-index: 4;
+    background-color: green;
+}
+.research-item:first-child {
+    background: #F4B350;
+}
+.research-item:second-child {
+    background: #F4B350;
+}
+.research-item a {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 1em;
+}
+.reasearchh5 {
+    margin-top: 45%;
+    font-size: 100%;
+    text-decoration: none;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
+div.quote {
+    height: 220px;
+}
+.quote p {
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p.author {
+    padding-top: 3px;
+    font-size: 18px;
+}
+#box1,
+.box2,
+#box3,
+#box4,
+#test1,
+#test2,
+#test3,
+#test4 {
+    float: left;
+    margin: 0 0 30px 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    line-height: 90px;
+    text-align: center;
+    border: 3px solid #a9a9a9;
+}
+#box1 {
+    box-shadow: 0 0 10px #000000;
+    -moz-box-shadow: 0 0 10px #000000;
+    -webkit-box-shadow: 0 0 10px #000000;
+}
+.box2 {
+    box-shadow: 0 0 10px #699, 0 0 10px #969, 0 0 10px #996, 0 0 10px #669;
+    -moz-box-shadow: 0 0 10px #699, 0 0 10px #969, 0 0 10px #996, 0 0 10px #669;
+    -webkit-box-shadow: 0 0 10px #699, 0 0 10px #969, 0 0 10px #996, 0 0 10px #669;
+}
+#box3 {
+    box-shadow: inset 0 0 0 #f80;
+    -moz-box-shadow: inset 0 0 0 #f80;
+    -webkit-box-shadow: inset 0 0 0 #f80;
+}
+#box4 {
+    position: relative;
+    box-shadow: 8px 8px 15px #666;
+    -moz-box-shadow: 8px 8px 15px #666;
+    -webkit-box-shadow: 8px 8px 15px #666;
+}
+.imgfac {
+    vertical-align: 2px;
+    margin-top: 2px
+}
+#section1 {
+    background-color: rgba(4, 146, 204, 0.29);
+}
+.accordion {
+    width: 80%;
+    margin-top: 5%;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#copyright {
+    background-color: rgba(245, 245, 245, 0.31);
+    color: black;
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    line-height: 2em;
+    font-size: 18px
+}
+.col-md-3 {
+    max-width: 250px;
+}
+.social_title {
+    margin-left: 40%;
+    padding-bottom: 2em;
+}
+#contact {
+    max-width: 500px;
+}
+#links {
+    font-size: 1.5em;
+    font-family: -webkit-pictograph;
+    padding: 3%;
+}
+.text-link {
+    text-decoration: none !important;
+    color: orange;
+}
+h1 {
+    color: #F36E21;
+    margin-top: 3%;
+}
+div#min {
+    margin-left: 10%;
+}
+div#grad {
+    margin-left: 10%;
+}
+div#ugrad {
+    margin-left: 10%;
+}
+div#Career_info {
+    text-align: center;
+    color: white;
+}
+.stats-content {
+    padding: 13px;
+}
+.orange {
+    color: #F36E21;
+}
+hr {
+    background: #dfe5eb;
+    border: none;
+    height: 2px;
+    width: 150px
+}
+#Box1 {
+    background-color: #D64541;
+    margin-left: 10%;
+}
+#Box2 {
+    background-color: #2C3E50;
+}
+#Box3 {
+    background-color: #68C3A3;
+}
+#Box4 {
+    background-color: #F4B350;
+}
+.minor-item {
+    height: 90px;
+    margin: 30px;
+    padding-left: 30px;
+}
+#statRow {
+    margin-left: 10%;
+}
+.employer-name {
+    display: inline-block;
+    margin: 1%;
+    padding: 0;
+    color: white;
+    margin-left: 5%;
+}
+#twtImg {
+    margin-right: 10%
+}
+.txtCentre {
+    text-align: center;
+}
+.social-presence .row {
+    padding-bottom: 4em
+}
+.social-presence a {
+    color: #F36E21
+}
+.social-presence a:hover {
+    color: #00bfff
+}
+/*this is for the rectangle boxs*/
+
+.mydiv {
+    margin-top: 10%;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+    background: #f34543;
+    -webkit-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+    -moz-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+    -o-transition: width 300ms ease-in-out, height 300ms ease-in-out;
+    transition: width 300ms ease-in-out, height 300ms ease-in-out;
+}
+.mydiv:hover {
+    width: 500px;
+    height: 400px;
+}
+#reso {
+    display: inline-flex;
+    margin-top: 2%;
+    margin-left: 20%
+}
+.flip {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: 200px;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
+#mapframe {
+    height: 500px;
+    width: 1000px;
+    margin-left: 27%;
+    margin-right: 3%;
+    margin-top: 3%;
+    background-image: url("../images/map.png");
+    background-size: cover;
+}
