@@ -4,7 +4,7 @@ A ISTE 330 project II to write API based front end website IST department at RIT
 The goal is to come up with a slik redesin of ist.rit.edu using the api at ist.rit.edu/api. 
 
 Plugins used:
-- [fullPage.js](http://alvarotrigo.com/fullPage/) - Beautifull and costomizable sliding plugin. 
+- [fullPage.js](http://alvarotrigo.com/fullPage/) - A simple and easy to use plugin to create fullscreen scrolling websites. 
 - [Bootstrap](http://getbootstrap.com) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 - [jquery.prettyPhoto.js](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/) - “prettyPhoto is a jQuery lightbox clone. Not only does it support images, it also support for videos, flash, YouTube, iframes and ajax. It’s a full blown media lightbox.”
 - [quote.js](http://www.marcofolio.net/webdesign/jquery_quickie_smooth_animated_quote_display.html) - Smooth animated quote display
