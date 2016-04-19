@@ -5,7 +5,7 @@ The goal is to come up with a slik redesin of ist.rit.edu using the api at ist.r
 
 Plugins used:
 - [fullPage.js](http://alvarotrigo.com/fullPage/) - Beautifull and costomizable sliding plugin. 
-- [Bootstrap](http://getbootstrap.com)
+- [Bootstrap](http://getbootstrap.com) - Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 - [jquery.prettyPhoto.js](http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/) - “prettyPhoto is a jQuery lightbox clone. Not only does it support images, it also support for videos, flash, YouTube, iframes and ajax. It’s a full blown media lightbox.”
 - [quote.js](http://www.marcofolio.net/webdesign/jquery_quickie_smooth_animated_quote_display.html) - Smooth animated quote display
 - [jquery.animate-shadow.js](http://www.bitstorm.org/jquery/shadow-animation/) - With this jQuery plugin, you can extend the animate function to support the CSS box shadow property. You can animate the color, the x and y offset, the blur-radius and spread radius. Mark Carver contributed code to support rgba colors (the alpha channel) and Jason Redding contributed code to support multiple shadows.
@@ -14,8 +14,9 @@ Plugins used:
 - [jquery.avgrund.min.js](https://github.com/voronianski/jquery.avgrund.js/) - Avgrund is a jQuery plugin for your modal boxes and popups. It uses new concept showing depth between popup and page.
 - [jquery.flip.js](https://github.com/nnattawat/flip) - A lightweight jQuery plugin to create 3d flip animation.
 
-Other Stuff used are:
+##Other Stuff used are:
 - [fonts.googleapis.com] - Cool fonts.
+- Quote and background color for the research items icons changes everytime we refresh the page.
 
 
 ## Issues
@@ -23,4 +24,9 @@ Other Stuff used are:
 - The biggest problem i faced was to be able to display AJAX data on featherlight popup. 
 - IFrame for the maps did not show up so i just took a picture of actual map as a place holder, the code is there but could not figure out why it did not show up, tested on gibson. 
 - I put a lot of effort to style the page but still is not complete!
-- `The Side navigation is not happy!`
+- The Side navigation is not happy!
+
+## Demo
+- [teknepal.com/ist.rit.edu](https://teknepal.com/ist.rit.edu)
+- [people.rit.edu/tn2089/ist.rit.edu](https://people.rit.edu/tn2089/ist.rit.edu)
+
