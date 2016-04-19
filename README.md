@@ -23,5 +23,4 @@ Other Stuff used are:
 - The biggest problem i faced was to be able to display AJAX data on featherlight popup. 
 - IFrame for the maps did not show up so i just took a picture of actual map as a place holder, the code is there but could not figure out why it did not show up, tested on gibson. 
 - I put a lot of effort to style the page but still is not complete!
-- The Side navigation is not happy!
-- 
+- `The Side navigation is not happy!`
