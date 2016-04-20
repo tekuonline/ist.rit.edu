@@ -16,7 +16,7 @@ Plugins used:
 
 ##Other Stuff used are:
 - [fonts.googleapis.com] - Cool fonts.
-- Quote and background color for the research items icons changes everytime we refresh the page.
+
 
 
 ## Issues
@@ -29,4 +29,9 @@ Plugins used:
 ## Demo
 - [teknepal.com/ist.rit.edu](https://teknepal.com/ist.rit.edu)
 - [people.rit.edu/tn2089/ist.rit.edu](https://people.rit.edu/tn2089/ist.rit.edu)
+- 
+## Some Cool Stuff
+- Click on Accordion to to get more info 
+- Quote and background color for the research items icons changes everytime we refresh the page.
+- Click on staff, faculty and reserch icons to get more info. 
 
