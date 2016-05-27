@@ -15,7 +15,7 @@ Plugins used:
 - [jquery.flip.js](https://github.com/nnattawat/flip) - A lightweight jQuery plugin to create 3d flip animation.
 
 ##Other Stuff used are:
-- [fonts.googleapis.com](http://fonts.googleapis.com) - Cool fonts.
+- [fonts.googleapis.com](https://www.google.com/fonts) - Cool fonts.
 
 
 
