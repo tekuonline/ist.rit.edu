@@ -1,5 +1,5 @@
 # ist.rit.edu
-A ISTE 330 project II to write API based front end website IST department at RIT
+A class project to write API based front end website for IST department at RIT
 
 The goal is to come up with a slik redesin of ist.rit.edu using the api at [ist.rit.edu/api](http://ist.rit.edu/api). 
 
